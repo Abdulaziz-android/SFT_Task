@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/search_et_back"
+    android:columnCount="2"
+    android:padding="10dp"
+    android:rowCount="4">
+
+
+    <include
+        android:id="@+id/scheme_layout"
+        layout="@layout/item_card_property"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1" />
+
+
+    <include
+        android:id="@+id/prepaid_layout"
+        layout="@layout/item_card_property"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1" />
+
+    <include
+        android:id="@+id/brand_layout"
+        layout="@layout/item_card_property"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1" />
+
+    <include
+        android:id="@+id/country_layout"
+        layout="@layout/item_card_property"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1" />
+
+    <include
+        android:id="@+id/number_layout"
+        layout="@layout/item_card_property"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1" />
+
+    <include
+        android:id="@+id/bank_layout"
+        layout="@layout/item_card_property"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1" />
+
+    <include
+        android:id="@+id/type_layout"
+        layout="@layout/item_card_property"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1" />
+
+
+</GridLayout>

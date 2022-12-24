@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="not_found">Не найден!</string>
+    <string name="connection_error">Интернет отключено!</string>
+    <string name="error">Не удалось!</string>
+</resources>

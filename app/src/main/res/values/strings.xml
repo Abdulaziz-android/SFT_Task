@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SFT_Task</string>
+
+    <string name="title_activity_sft">SftActivity</string>
+    <string name="title_home">Oсновной</string>
+    <string name="title_history">История</string>
+    <string name="title_settings">Настройки</string>
+    <string name="ok">ОК</string>
+    <string name="search">Искать</string>
+    <string name="bin_hint">**** ****</string>
+    <string name="bin">BIN</string>
+    <string name="coming_soon">Скоро!</string>
+
+</resources>
